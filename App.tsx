@@ -24,9 +24,9 @@ const App = (props: {componentId: string}) => {
       subtitle: 'This hook lets you access the value stored in shared value n keeps all the animation related logic in one place.',
     },
     {
-      id: '58694a0f-3da1-471f-bd96-145571e29d72',
-      title: 'Third Item',
-      subtitle: '',
+      id: 'AnimatingProps',
+      title: 'Animating Props',
+      subtitle: 'use of #createAnimatedComponent for component which arent part of Reanimated. use of #useAnimatedProps hook.',
     },
   ];
 

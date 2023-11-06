@@ -16,6 +16,7 @@ import App from "./App";
 import {name as appName} from './app.json';
 import BasicAnimation from "./screens/BasicAnimation";
 import useAnimatedStyle_ from "./screens/useAnimatedStyle_";
+import AnimatingProps from "./screens/AnimatingProps";
 
 // -AppRegistry.registerComponent(appName, () => App);
 
@@ -23,6 +24,7 @@ import useAnimatedStyle_ from "./screens/useAnimatedStyle_";
 Navigation.registerComponent('com.myApp.mainScreen', () => App);
 Navigation.registerComponent('BasicAnimation',() => BasicAnimation);
 Navigation.registerComponent('useAnimatedStyle',() => useAnimatedStyle_);
+Navigation.registerComponent('AnimatingProps',() => AnimatingProps);
 
 
 Navigation.events().registerAppLaunchedListener(() => {
