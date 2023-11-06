@@ -16,12 +16,12 @@ const App = (props: {componentId: string}) => {
     {
       id: 'BasicAnimation',
       title: 'Basic Animation',
-      subtitle: 'Basic animation implementation',
+      subtitle: 'userSharedValue : inline styling',
     },
     {
-      id: '3ac68afc-c605-48d3-a4f8-fbd91aa97f63',
-      title: 'Second Item',
-      subtitle: '',
+      id: 'useAnimatedStyle',
+      title: 'useAnimatedStyle',
+      subtitle: 'This hook lets you access the value stored in shared value n keeps all the animation related logic in one place.',
     },
     {
       id: '58694a0f-3da1-471f-bd96-145571e29d72',
