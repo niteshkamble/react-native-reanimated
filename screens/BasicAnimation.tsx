@@ -13,7 +13,7 @@ const BasicAnimation = () => {
 
     return (
         <View style={styles.root}>
-            <Animated.View style={{ width, height: 100, backgroundColor: 'orange', borderRadius: 10 }}></Animated.View>
+            <Animated.View style={{ width, height: 100, backgroundColor: 'orange', borderRadius: 10,marginVertical:20 }}></Animated.View>
             <Button onPress={handlePress} title='Click me' />
         </View>
     )
